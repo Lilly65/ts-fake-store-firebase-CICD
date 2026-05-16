@@ -9,7 +9,7 @@ import {
   where,
 } from "firebase/firestore";
 import { db } from "../firebase/config";
-import type { Order, OrderItem } from "../types";
+import type { Order } from "../types";
 
 export function useCreateOrder() {
   const queryClient = useQueryClient();
